@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="udf_getcurrency" targetNamespace="http://tempuri.org/udf_getcurrency.xsd" xmlns:mstns="http://tempuri.org/udf_getcurrency.xsd" xmlns="http://tempuri.org/udf_getcurrency.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="FormationOfSchedule" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FormationOfSchedule (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.FormationOfSchedule.Properties.Settings.GlobalReference.Default.FormationOfSchedule" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="udf_FS_get_currencyTableAdapter" GeneratorDataComponentClassName="udf_FS_get_currencyTableAdapter" Name="udf_FS_get_currency" UserDataComponentName="udf_FS_get_currencyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FormationOfSchedule (Settings)" DbObjectName="FormationOfSchedule.dbo.udf_FS_get_currency" DbObjectType="Function" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Cur, num FROM dbo.udf_FS_get_currency()</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Cur" DataSetColumn="Cur" />
+              <Mapping SourceColumn="num" DataSetColumn="num" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="udf_getcurrency" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="udf_getcurrency" msprop:Generator_UserDSName="udf_getcurrency">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="udf_FS_get_currency" msprop:Generator_TableClassName="udf_FS_get_currencyDataTable" msprop:Generator_TableVarName="tableudf_FS_get_currency" msprop:Generator_TablePropName="udf_FS_get_currency" msprop:Generator_RowDeletingName="udf_FS_get_currencyRowDeleting" msprop:Generator_UserTableName="udf_FS_get_currency" msprop:Generator_RowChangingName="udf_FS_get_currencyRowChanging" msprop:Generator_RowEvHandlerName="udf_FS_get_currencyRowChangeEventHandler" msprop:Generator_RowDeletedName="udf_FS_get_currencyRowDeleted" msprop:Generator_RowEvArgName="udf_FS_get_currencyRowChangeEvent" msprop:Generator_RowChangedName="udf_FS_get_currencyRowChanged" msprop:Generator_RowClassName="udf_FS_get_currencyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cur" msprop:Generator_ColumnVarNameInTable="columnCur" msprop:Generator_ColumnPropNameInRow="Cur" msprop:Generator_ColumnPropNameInTable="CurColumn" msprop:Generator_UserColumnName="Cur" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="num" msprop:Generator_ColumnVarNameInTable="columnnum" msprop:Generator_ColumnPropNameInRow="num" msprop:Generator_ColumnPropNameInTable="numColumn" msprop:Generator_UserColumnName="num" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

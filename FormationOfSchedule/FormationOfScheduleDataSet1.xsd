@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FormationOfScheduleDataSet1" targetNamespace="http://tempuri.org/FormationOfScheduleDataSet1.xsd" xmlns:mstns="http://tempuri.org/FormationOfScheduleDataSet1.xsd" xmlns="http://tempuri.org/FormationOfScheduleDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="FormationOfSchedule" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FormationOfSchedule (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.FormationOfSchedule.Properties.Settings.GlobalReference.Default.FormationOfSchedule" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_Users_GETTableAdapter" GeneratorDataComponentClassName="v_Users_GETTableAdapter" Name="v_Users_GET" UserDataComponentName="v_Users_GETTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FormationOfSchedule (Settings)" DbObjectName="FormationOfSchedule.dbo.v_Users_GET" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Login, UsersName, PFMcode, PFMname, IdUsers, UsersGroup, Expr1 FROM dbo.v_Users_GET</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Login" DataSetColumn="Login" />
+              <Mapping SourceColumn="UsersName" DataSetColumn="UsersName" />
+              <Mapping SourceColumn="PFMcode" DataSetColumn="PFMcode" />
+              <Mapping SourceColumn="PFMname" DataSetColumn="PFMname" />
+              <Mapping SourceColumn="IdUsers" DataSetColumn="IdUsers" />
+              <Mapping SourceColumn="UsersGroup" DataSetColumn="UsersGroup" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FormationOfScheduleDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="FormationOfScheduleDataSet1" msprop:Generator_UserDSName="FormationOfScheduleDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_Users_GET" msprop:Generator_TableClassName="v_Users_GETDataTable" msprop:Generator_TableVarName="tablev_Users_GET" msprop:Generator_TablePropName="v_Users_GET" msprop:Generator_RowDeletingName="v_Users_GETRowDeleting" msprop:Generator_UserTableName="v_Users_GET" msprop:Generator_RowChangingName="v_Users_GETRowChanging" msprop:Generator_RowEvHandlerName="v_Users_GETRowChangeEventHandler" msprop:Generator_RowDeletedName="v_Users_GETRowDeleted" msprop:Generator_RowEvArgName="v_Users_GETRowChangeEvent" msprop:Generator_RowChangedName="v_Users_GETRowChanged" msprop:Generator_RowClassName="v_Users_GETRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Login" msprop:Generator_ColumnVarNameInTable="columnLogin" msprop:Generator_ColumnPropNameInRow="Login" msprop:Generator_ColumnPropNameInTable="LoginColumn" msprop:Generator_UserColumnName="Login" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UsersName" msprop:Generator_ColumnVarNameInTable="columnUsersName" msprop:Generator_ColumnPropNameInRow="UsersName" msprop:Generator_ColumnPropNameInTable="UsersNameColumn" msprop:Generator_UserColumnName="UsersName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PFMcode" msprop:Generator_ColumnVarNameInTable="columnPFMcode" msprop:Generator_ColumnPropNameInRow="PFMcode" msprop:Generator_ColumnPropNameInTable="PFMcodeColumn" msprop:Generator_UserColumnName="PFMcode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PFMname" msprop:Generator_ColumnVarNameInTable="columnPFMname" msprop:Generator_ColumnPropNameInRow="PFMname" msprop:Generator_ColumnPropNameInTable="PFMnameColumn" msprop:Generator_UserColumnName="PFMname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdUsers" msprop:Generator_ColumnVarNameInTable="columnIdUsers" msprop:Generator_ColumnPropNameInRow="IdUsers" msprop:Generator_ColumnPropNameInTable="IdUsersColumn" msprop:Generator_UserColumnName="IdUsers" type="xs:int" />
+              <xs:element name="UsersGroup" msprop:Generator_ColumnVarNameInTable="columnUsersGroup" msprop:Generator_ColumnPropNameInRow="UsersGroup" msprop:Generator_ColumnPropNameInTable="UsersGroupColumn" msprop:Generator_UserColumnName="UsersGroup" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:v_Users_GET" />
+      <xs:field xpath="mstns:IdUsers" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

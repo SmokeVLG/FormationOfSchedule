@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Last4Date" targetNamespace="http://tempuri.org/Last4Date.xsd" xmlns:mstns="http://tempuri.org/Last4Date.xsd" xmlns="http://tempuri.org/Last4Date.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="FormationOfSchedule" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FormationOfSchedule (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.FormationOfSchedule.Properties.Settings.GlobalReference.Default.FormationOfSchedule" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Last4DateTableAdapter" GeneratorDataComponentClassName="Last4DateTableAdapter" Name="Last4Date" UserDataComponentName="Last4DateTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FormationOfSchedule (Settings)" DbObjectName="FormOfSh.dbo.Last4Date" DbObjectType="Function" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Date FROM dbo.Last4Date()</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Last4Date" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Last4Date" msprop:Generator_UserDSName="Last4Date">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Last4Date" msprop:Generator_TableClassName="Last4DateDataTable" msprop:Generator_TableVarName="tableLast4Date" msprop:Generator_TablePropName="_Last4Date" msprop:Generator_RowDeletingName="Last4DateRowDeleting" msprop:Generator_UserTableName="Last4Date" msprop:Generator_RowChangingName="Last4DateRowChanging" msprop:Generator_RowEvHandlerName="Last4DateRowChangeEventHandler" msprop:Generator_RowDeletedName="Last4DateRowDeleted" msprop:Generator_RowEvArgName="Last4DateRowChangeEvent" msprop:Generator_RowChangedName="Last4DateRowChanged" msprop:Generator_RowClassName="Last4DateRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

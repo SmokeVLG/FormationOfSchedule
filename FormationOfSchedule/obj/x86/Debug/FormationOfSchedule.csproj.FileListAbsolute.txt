@@ -1,0 +1,83 @@
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\FormationOfSchedule.exe.config
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\FormationOfSchedule.exe
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\FormationOfSchedule.pdb
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Data.v10.1.dll
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Utils.v10.1.dll
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraEditors.v10.1.dll
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraGrid.v10.1.dll
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraLayout.v10.1.dll
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\Microsoft.CSharp.dll
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Data.v10.1.xml
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Utils.v10.1.xml
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraEditors.v10.1.xml
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraGrid.v10.1.xml
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraLayout.v10.1.xml
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.csprojResolveAssemblyReference.cache
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Adminform.resources
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Form1.resources
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Main.resources
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Properties.Resources.resources
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportDate.resources
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportDeclarationForm.resources
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportLimits.resources
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportMark.resources
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.csproj.GenerateResource.Cache
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.exe.licenses
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.exe
+C:\Projects\MoneyLimits\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.pdb
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\FormationOfSchedule.exe.config
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.exe
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.pdb
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Adminform.resources
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Form1.resources
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Main.resources
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Properties.Resources.resources
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportDate.resources
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportDeclarationForm.resources
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportLimits.resources
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportMark.resources
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.csproj.GenerateResource.Cache
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.exe.licenses
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\FormationOfSchedule.exe
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\FormationOfSchedule.pdb
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Data.v10.1.dll
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Utils.v10.1.dll
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraEditors.v10.1.dll
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraGrid.v10.1.dll
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraLayout.v10.1.dll
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\Microsoft.CSharp.dll
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Data.v10.1.xml
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Utils.v10.1.xml
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraEditors.v10.1.xml
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraGrid.v10.1.xml
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraLayout.v10.1.xml
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.csproj.ResolveComReference.cache
+C:\Users\denisovmv\Desktop\FormationOfSchedule\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.csprojResolveAssemblyReference.cache
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\FormationOfSchedule.exe.config
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.csproj.ResolveComReference.cache
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.exe
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.pdb
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\FormationOfSchedule.exe
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\FormationOfSchedule.pdb
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Data.v10.1.dll
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Utils.v10.1.dll
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraEditors.v10.1.dll
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraGrid.v10.1.dll
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraLayout.v10.1.dll
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Data.v10.1.xml
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.Utils.v10.1.xml
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraEditors.v10.1.xml
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraGrid.v10.1.xml
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\bin\Debug\DevExpress.XtraLayout.v10.1.xml
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.csprojResolveAssemblyReference.cache
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Adminform.resources
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Form1.resources
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Main.resources
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.Properties.Resources.resources
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportDate.resources
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportDeclarationForm.resources
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportLimits.resources
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.ReportMark.resources
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.csproj.GenerateResource.Cache
+C:\Users\Максим\Documents\Visual Studio 2015\Projects\FormationOfSchedule\FormationOfSchedule\obj\x86\Debug\FormationOfSchedule.exe.licenses

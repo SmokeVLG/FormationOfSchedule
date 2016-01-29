@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CurrencyCurs1" targetNamespace="http://tempuri.org/CurrencyCurs1.xsd" xmlns:mstns="http://tempuri.org/CurrencyCurs1.xsd" xmlns="http://tempuri.org/CurrencyCurs1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="FormationOfSchedule" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FormationOfSchedule (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.FormationOfSchedule.Properties.Settings.GlobalReference.Default.FormationOfSchedule" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_CurrencyCursTableAdapter" GeneratorDataComponentClassName="v_CurrencyCursTableAdapter" Name="v_CurrencyCurs" UserDataComponentName="v_CurrencyCursTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FormationOfSchedule (Settings)" DbObjectName="FormationOfSchedule.dbo.v_CurrencyCurs" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT DateCurs, Currency, Rus, IdCurs FROM dbo.v_CurrencyCurs</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateCurs" DataSetColumn="DateCurs" />
+              <Mapping SourceColumn="Currency" DataSetColumn="Currency" />
+              <Mapping SourceColumn="Rus" DataSetColumn="Rus" />
+              <Mapping SourceColumn="IdCurs" DataSetColumn="IdCurs" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CurrencyCurs1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="CurrencyCurs1" msprop:Generator_UserDSName="CurrencyCurs1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_CurrencyCurs" msprop:Generator_TableClassName="v_CurrencyCursDataTable" msprop:Generator_TableVarName="tablev_CurrencyCurs" msprop:Generator_TablePropName="v_CurrencyCurs" msprop:Generator_RowDeletingName="v_CurrencyCursRowDeleting" msprop:Generator_UserTableName="v_CurrencyCurs" msprop:Generator_RowChangingName="v_CurrencyCursRowChanging" msprop:Generator_RowEvHandlerName="v_CurrencyCursRowChangeEventHandler" msprop:Generator_RowDeletedName="v_CurrencyCursRowDeleted" msprop:Generator_RowEvArgName="v_CurrencyCursRowChangeEvent" msprop:Generator_RowChangedName="v_CurrencyCursRowChanged" msprop:Generator_RowClassName="v_CurrencyCursRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateCurs" msprop:Generator_ColumnVarNameInTable="columnDateCurs" msprop:Generator_ColumnPropNameInRow="DateCurs" msprop:Generator_ColumnPropNameInTable="DateCursColumn" msprop:Generator_UserColumnName="DateCurs" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Currency" msprop:Generator_ColumnVarNameInTable="columnCurrency" msprop:Generator_ColumnPropNameInRow="Currency" msprop:Generator_ColumnPropNameInTable="CurrencyColumn" msprop:Generator_UserColumnName="Currency" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Rus" msprop:Generator_ColumnVarNameInTable="columnRus" msprop:Generator_ColumnPropNameInRow="Rus" msprop:Generator_ColumnPropNameInTable="RusColumn" msprop:Generator_UserColumnName="Rus" type="xs:double" minOccurs="0" />
+              <xs:element name="IdCurs" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdCurs" msprop:Generator_ColumnPropNameInRow="IdCurs" msprop:Generator_ColumnPropNameInTable="IdCursColumn" msprop:Generator_UserColumnName="IdCurs" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:v_CurrencyCurs" />
+      <xs:field xpath="mstns:IdCurs" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
