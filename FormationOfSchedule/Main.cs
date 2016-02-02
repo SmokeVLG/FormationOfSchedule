@@ -30,7 +30,7 @@ namespace FormationOfSchedule
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (tb_login.Text != "" )
+            if (tb_login.Text != "" && tb_password.Text != "")
             {
                 Form1 frm = new Form1(tb_login.Text, tb_password.Text, this);
                 frm.Show();

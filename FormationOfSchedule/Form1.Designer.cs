@@ -380,7 +380,6 @@
             this.formOfShDataSet = new FormationOfSchedule.FormOfShDataSet();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.otch7 = new System.Windows.Forms.LinkLabel();
             this.otch1 = new System.Windows.Forms.LinkLabel();
             this.otch_sv = new System.Windows.Forms.LinkLabel();
             this.otch2 = new System.Windows.Forms.LinkLabel();
@@ -434,8 +433,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.last4DateTableAdapter = new FormationOfSchedule.FormOfShDataSetTableAdapters.Last4DateTableAdapter();
             this.formOfShDataSet1 = new FormationOfSchedule.FormOfShDataSet1();
-            this.gridColumn74 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn75 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.otch7 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.monthBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.formationOfScheduleDataSet)).BeginInit();
             this.limsMenu.SuspendLayout();
@@ -845,8 +843,7 @@
             this.gridColumn47,
             this.gridColumn48,
             this.gridColumn49,
-            this.gridColumn66,
-            this.gridColumn74});
+            this.gridColumn66});
             this.ContractView.GridControl = this.ContractControl;
             this.ContractView.GroupPanelText = "Перетащите заголовок колонки сюда для группировки";
             this.ContractView.Name = "ContractView";
@@ -2972,8 +2969,7 @@
             this.gridColumn61,
             this.gridColumn62,
             this.gridColumn63,
-            this.gridColumn64,
-            this.gridColumn75});
+            this.gridColumn64});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.GroupPanelText = "Перетащите заголовок колонки сюда для группировки";
             this.gridView1.Name = "gridView1";
@@ -4182,19 +4178,6 @@
             this.tabPage1.Text = "Отчеты";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // otch7
-            // 
-            this.otch7.AutoSize = true;
-            this.otch7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.otch7.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.otch7.Location = new System.Drawing.Point(31, 245);
-            this.otch7.Name = "otch7";
-            this.otch7.Size = new System.Drawing.Size(220, 17);
-            this.otch7.TabIndex = 1;
-            this.otch7.TabStop = true;
-            this.otch7.Text = "Ожидаемое исполнение месяца";
-            this.otch7.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.otch7_LinkClicked);
-            // 
             // otch1
             // 
             this.otch1.AutoSize = true;
@@ -4626,21 +4609,18 @@
             this.formOfShDataSet1.DataSetName = "FormOfShDataSet1";
             this.formOfShDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // gridColumn74
+            // otch7
             // 
-            this.gridColumn74.Caption = "Отсрочка по договору";
-            this.gridColumn74.FieldName = "col20";
-            this.gridColumn74.Name = "gridColumn74";
-            this.gridColumn74.Visible = true;
-            this.gridColumn74.VisibleIndex = 19;
-            // 
-            // gridColumn75
-            // 
-            this.gridColumn75.Caption = "Отсрочка по договору";
-            this.gridColumn75.FieldName = "col20";
-            this.gridColumn75.Name = "gridColumn75";
-            this.gridColumn75.Visible = true;
-            this.gridColumn75.VisibleIndex = 19;
+            this.otch7.AutoSize = true;
+            this.otch7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.otch7.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.otch7.Location = new System.Drawing.Point(31, 245);
+            this.otch7.Name = "otch7";
+            this.otch7.Size = new System.Drawing.Size(220, 17);
+            this.otch7.TabIndex = 1;
+            this.otch7.TabStop = true;
+            this.otch7.Text = "Ожидаемое исполнение месяца";
+            this.otch7.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.otch7_LinkClicked);
             // 
             // Form1
             // 
@@ -5167,8 +5147,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.LinkLabel otch7;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn74;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn75;
     }
 }
 
