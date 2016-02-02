@@ -311,13 +311,13 @@ namespace FormationOfSchedule
             //if (inform_[0].Substring(0, 13) == "Администратор") Изменил Дороненков Г.Г. 03-06-2014 
 			if ((inform_[0] != string.Empty) && (inform_[0].Substring(0, 13) == "Администратор"))
             {
-                Comm = "SELECT num ,ID  , col1 ,col2 ,col3,col4 ,col19 ,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18  FROM [udf_FS_Contracts_Get] ()" +
+                Comm = "SELECT num ,ID  , col1 ,col2 ,col3,col4 ,col19 ,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col20  FROM [udf_FS_Contracts_Get] ()" +
                              "  WHERE col2 not in (select ContractCode from Contracts where ContractStatus not in('В работе','Корректировка','На проверке','На экспертизе','Проект','Исправление')) " + 
                              " AND '" + date + "' between col12 and col14";
             }
             else
             {
-                Comm = "SELECT num ,ID  , col1 ,col2 ,col3,col4 ,col19 ,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18  FROM [udf_FS_Contracts_Get] ()" +
+                Comm = "SELECT num ,ID  , col1 ,col2 ,col3,col4 ,col19 ,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col20  FROM [udf_FS_Contracts_Get] ()" +
                  "   WHERE col2 not in (select ContractCode from Contracts where ContractStatus not in('В работе','Корректировка','На проверке','На экспертизе','Проект','Исправление')) and col7 = '" + inform_[1] + "'";
             }
             SqlCommand comm = new SqlCommand(Comm, _connection);
